@@ -13,41 +13,41 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/autodoc_pydantic.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=87e54e7c" />
     <link rel="stylesheet" type="text/css" href="_static/theme_overrides.css?v=86d88d25" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
-  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="_static/documentation_options.js?v=236d699e"></script>
+    <script src="_static/documentation_options.js?v=f836a3fa"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
     <script>
-        DOCUMENTATION_OPTIONS.theme_version = '0.15.2';
+        DOCUMENTATION_OPTIONS.theme_version = '0.15.4';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://camsys.github.io/activitysim/switcher.json';
         DOCUMENTATION_OPTIONS.theme_switcher_version_match = '1.3.0';
         DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
@@ -56,7 +56,7 @@
     <link rel="search" title="Search" href="search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Apr 25, 2024"/>
+    <meta name="docbuild:last-update" content="Jul 09, 2024"/>
   </head>
   
   
@@ -64,27 +64,23 @@
 
   
   
-  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -106,18 +102,25 @@
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <label class="sidebar-toggle primary-toggle" for="__primary">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
-  </label>
+  </button>
   
   
   <div class="col-lg-3 navbar-header-items__start">
     
       <div class="navbar-item">
 
+  
+    
   
 
 <a class="navbar-brand logo" href="index.html">
@@ -138,22 +141,22 @@
     <div class="me-auto navbar-header-items__center">
       
         <div class="navbar-item">
-<nav class="navbar-nav">
+<nav>
   <ul class="bd-navbar-elements navbar-nav">
     
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="users-guide/index.html">
-                        Users Guide
-                      </a>
-                    </li>
-                
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="users-guide/index.html">
+    Users Guide
+  </a>
+</li>
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="dev-guide/index.html">
-                        Developers
-                      </a>
-                    </li>
-                
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="dev-guide/index.html">
+    Developers
+  </a>
+</li>
+
   </ul>
 </nav></div>
       
@@ -167,7 +170,7 @@
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -183,7 +186,7 @@ document.write(`
   <div class="version-switcher__container dropdown">
     <button id="pst-version-switcher-button-2"
       type="button"
-      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      class="version-switcher__button btn btn-sm dropdown-toggle"
       data-bs-toggle="dropdown"
       aria-haspopup="listbox"
       aria-controls="pst-version-switcher-list-2"
@@ -210,7 +213,7 @@ document.write(`
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -242,25 +245,28 @@ document.write(`
     
       <div class="sidebar-header-items__center">
         
-          <div class="navbar-item">
-<nav class="navbar-nav">
+          
+          
+            <div class="navbar-item">
+<nav>
   <ul class="bd-navbar-elements navbar-nav">
     
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="users-guide/index.html">
-                        Users Guide
-                      </a>
-                    </li>
-                
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="users-guide/index.html">
+    Users Guide
+  </a>
+</li>
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="dev-guide/index.html">
-                        Developers
-                      </a>
-                    </li>
-                
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="dev-guide/index.html">
+    Developers
+  </a>
+</li>
+
   </ul>
 </nav></div>
+          
         
       </div>
     
@@ -274,7 +280,7 @@ document.write(`
   <div class="version-switcher__container dropdown">
     <button id="pst-version-switcher-button-3"
       type="button"
-      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      class="version-switcher__button btn btn-sm dropdown-toggle"
       data-bs-toggle="dropdown"
       aria-haspopup="listbox"
       aria-controls="pst-version-switcher-list-3"
@@ -305,13 +311,13 @@ document.write(`
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article"></div>
+              <div class="bd-header-article d-print-none"></div>
               
               
               
@@ -635,10 +641,10 @@ document.write(`
 </li>
       <li><a href="dev-guide/_generated/activitysim.core.workflow.State.checkpoint.add.html#activitysim.core.workflow.State.checkpoint.add">add() (activitysim.core.workflow.State.checkpoint method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="cli.html#activitysim.cli.create.add_create_args">add_create_args() (in module activitysim.cli.create)</a>, <a href="users-guide/ways_to_run.html#activitysim.cli.create.add_create_args">[1]</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="dev-guide/_generated/activitysim.core.workflow.State.add_injectable.html#activitysim.core.workflow.State.add_injectable">add_injectable() (activitysim.core.workflow.State method)</a>
 </li>
       <li><a href="dev-guide/components/cdap.html#activitysim.abm.models.cdap.CdapSettings.ADD_JOINT_TOUR_UTILITY">ADD_JOINT_TOUR_UTILITY (activitysim.abm.models.cdap.CdapSettings attribute)</a>
@@ -706,6 +712,10 @@ document.write(`
 </li>
       </ul></li>
       <li><a href="dev-guide/components/vehicle_type_choice.html#activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings.alts_preprocessor">alts_preprocessor (activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings attribute)</a>
+</li>
+      <li><a href="dev-guide/components/trip_destination.html#activitysim.abm.models.trip_destination.TripDestinationSettings.alts_preprocessor_sample">alts_preprocessor_sample (activitysim.abm.models.trip_destination.TripDestinationSettings attribute)</a>
+</li>
+      <li><a href="dev-guide/components/trip_destination.html#activitysim.abm.models.trip_destination.TripDestinationSettings.alts_preprocessor_simulate">alts_preprocessor_simulate (activitysim.abm.models.trip_destination.TripDestinationSettings attribute)</a>
 </li>
       <li><a href="dev-guide/components/atwork_subtour_destination.html#activitysim.abm.models.atwork_subtour_destination.TourLocationComponentSettings.annotate_households">annotate_households (activitysim.abm.models.atwork_subtour_destination.TourLocationComponentSettings attribute)</a>
 
@@ -1051,10 +1061,10 @@ document.write(`
 </li>
       <li><a href="dev-guide/components/vehicle_type_choice.html#activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings.COLS_TO_INCLUDE_IN_CHOOSER_TABLE">COLS_TO_INCLUDE_IN_CHOOSER_TABLE (activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings attribute)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="dev-guide/components/vehicle_type_choice.html#activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings.COLS_TO_INCLUDE_IN_VEHICLE_TABLE">COLS_TO_INCLUDE_IN_VEHICLE_TABLE (activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings attribute)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="dev-guide/components/vehicle_type_choice.html#activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings.combinatorial_alts">combinatorial_alts (activitysim.abm.models.vehicle_type_choice.VehicleTypeChoiceSettings attribute)</a>
 </li>
       <li><a href="dev-guide/components/accessibility.html#activitysim.abm.models.accessibility.compute_accessibility">compute_accessibility() (in module activitysim.abm.models.accessibility)</a>
@@ -1117,6 +1127,8 @@ document.write(`
         <li><a href="dev-guide/components/trip_departure_choice.html#activitysim.abm.models.trip_departure_choice.TripDepartureChoiceSettings.compute_settings">(activitysim.abm.models.trip_departure_choice.TripDepartureChoiceSettings attribute)</a>
 </li>
         <li><a href="dev-guide/components/trip_mode_choice.html#activitysim.abm.models.trip_mode_choice.TripModeChoiceSettings.compute_settings">(activitysim.abm.models.trip_mode_choice.TripModeChoiceSettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/trip_scheduling_choice.html#activitysim.abm.models.trip_scheduling_choice.TripSchedulingChoiceSettings.compute_settings">(activitysim.abm.models.trip_scheduling_choice.TripSchedulingChoiceSettings attribute)</a>
 </li>
         <li><a href="dev-guide/components/vehicle_allocation.html#activitysim.abm.models.vehicle_allocation.VehicleAllocationSettings.compute_settings">(activitysim.abm.models.vehicle_allocation.VehicleAllocationSettings attribute)</a>
 </li>
@@ -1433,20 +1445,34 @@ document.write(`
 </li>
       <li><a href="users-guide/_generated/activitysim.core.configuration.MultiprocessStepSlice.html#activitysim.core.configuration.MultiprocessStepSlice.exclude">exclude (activitysim.core.configuration.MultiprocessStepSlice attribute)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="users-guide/_generated/activitysim.examples.external.exercise_external_example.html#activitysim.examples.external.exercise_external_example">exercise_external_example() (in module activitysim.examples.external)</a>
 </li>
       <li><a href="dev-guide/_generated/activitysim.core.workflow.State.existing_table_names.html#activitysim.core.workflow.State.existing_table_names">existing_table_names (activitysim.core.workflow.State property)</a>
 </li>
       <li><a href="dev-guide/_generated/activitysim.core.workflow.State.existing_table_status.html#activitysim.core.workflow.State.existing_table_status">existing_table_status (activitysim.core.workflow.State property)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="users-guide/_generated/activitysim.core.configuration.FileSystem.html#activitysim.core.configuration.FileSystem.expand_input_file_list">expand_input_file_list() (activitysim.core.configuration.FileSystem method)</a>
 </li>
       <li><a href="dev-guide/components/accessibility.html#activitysim.abm.models.accessibility.AccessibilitySettings.explicit_chunk">explicit_chunk (activitysim.abm.models.accessibility.AccessibilitySettings attribute)</a>
 
       <ul>
+        <li><a href="dev-guide/components/atwork_subtour_destination.html#activitysim.abm.models.atwork_subtour_destination.TourLocationComponentSettings.explicit_chunk">(activitysim.abm.models.atwork_subtour_destination.TourLocationComponentSettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/atwork_subtour_scheduling.html#activitysim.abm.models.atwork_subtour_scheduling.TourSchedulingSettings.explicit_chunk">(activitysim.abm.models.atwork_subtour_scheduling.TourSchedulingSettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/disaggregate_accessibility.html#activitysim.abm.models.disaggregate_accessibility.DisaggregateAccessibilitySettings.explicit_chunk">(activitysim.abm.models.disaggregate_accessibility.DisaggregateAccessibilitySettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/joint_tour_destination.html#activitysim.abm.models.joint_tour_destination.TourLocationComponentSettings.explicit_chunk">(activitysim.abm.models.joint_tour_destination.TourLocationComponentSettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/joint_tour_scheduling.html#activitysim.abm.models.joint_tour_scheduling.TourSchedulingSettings.explicit_chunk">(activitysim.abm.models.joint_tour_scheduling.TourSchedulingSettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/non_mandatory_destination.html#activitysim.abm.models.non_mandatory_destination.TourLocationComponentSettings.explicit_chunk">(activitysim.abm.models.non_mandatory_destination.TourLocationComponentSettings attribute)</a>
+</li>
         <li><a href="dev-guide/components/non_mandatory_tour_frequency.html#activitysim.abm.models.non_mandatory_tour_frequency.NonMandatoryTourFrequencySettings.explicit_chunk">(activitysim.abm.models.non_mandatory_tour_frequency.NonMandatoryTourFrequencySettings attribute)</a>
+</li>
+        <li><a href="dev-guide/components/parking_location_choice.html#activitysim.abm.models.parking_location_choice.ParkingLocationSettings.explicit_chunk">(activitysim.abm.models.parking_location_choice.ParkingLocationSettings attribute)</a>
 </li>
         <li><a href="dev-guide/components/school_escorting.html#activitysim.abm.models.school_escorting.SchoolEscortSettings.explicit_chunk">(activitysim.abm.models.school_escorting.SchoolEscortSettings attribute)</a>
 </li>
@@ -1864,6 +1890,8 @@ document.write(`
       <li><a href="users-guide/model_anatomy.html#index-3">land use</a>
 </li>
       <li><a href="dev-guide/components/accessibility.html#activitysim.abm.models.accessibility.AccessibilitySettings.land_use_columns">land_use_columns (activitysim.abm.models.accessibility.AccessibilitySettings attribute)</a>
+</li>
+      <li><a href="dev-guide/components/accessibility.html#activitysim.abm.models.accessibility.AccessibilitySettings.land_use_columns_orig">land_use_columns_orig (activitysim.abm.models.accessibility.AccessibilitySettings attribute)</a>
 </li>
       <li><a href="dev-guide/_generated/activitysim.core.workflow.State.checkpoint.last_checkpoint.html#activitysim.core.workflow.State.checkpoint.last_checkpoint">last_checkpoint (activitysim.core.workflow.State.checkpoint attribute)</a>
 </li>
@@ -2405,6 +2433,8 @@ document.write(`
       <li><a href="users-guide/example_models.html#index-3">omx_file</a>
 </li>
       <li><a href="core.html#activitysim.core.los.Network_LOS.omx_file_names">omx_file_names() (activitysim.core.los.Network_LOS method)</a>
+</li>
+      <li><a href="users-guide/_generated/activitysim.core.configuration.Settings.html#activitysim.core.configuration.Settings.omx_ignore_patterns">omx_ignore_patterns (activitysim.core.configuration.Settings attribute)</a>
 </li>
       <li><a href="core.html#activitysim.core.pathbuilder_cache.TVPBCache.open">open() (activitysim.core.pathbuilder_cache.TVPBCache method)</a>
 </li>
@@ -3100,6 +3130,8 @@ document.write(`
 </li>
       <li><a href="dev-guide/_generated/activitysim.core.workflow.State.checkpoint.store_is_open.html#activitysim.core.workflow.State.checkpoint.store_is_open">store_is_open() (activitysim.core.workflow.State.checkpoint method)</a>
 </li>
+      <li><a href="users-guide/_generated/activitysim.core.configuration.Settings.html#activitysim.core.configuration.Settings.store_skims_in_shm">store_skims_in_shm (activitysim.core.configuration.Settings attribute)</a>
+</li>
       <li><a href="dev-guide/components/disaggregate_accessibility.html#activitysim.abm.models.disaggregate_accessibility.DisaggregateAccessibilitySettings.suffixes">suffixes (activitysim.abm.models.disaggregate_accessibility.DisaggregateAccessibilitySettings attribute)</a>
 </li>
       <li><a href="core.html#activitysim.core.skim_dict_factory.AbstractSkimFactory.supports_shared_data_for_multiprocessing">supports_shared_data_for_multiprocessing (activitysim.core.skim_dict_factory.AbstractSkimFactory property)</a>
@@ -3459,7 +3491,7 @@ document.write(`
               
               
               
-                <footer class="prev-next-footer">
+                <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
 </div>
@@ -3468,8 +3500,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>
@@ -3482,8 +3512,8 @@ document.write(`
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -3492,7 +3522,7 @@ document.write(`
       
         <div class="footer-item"><!-- This will display the version of the docs -->
 <p class="last-updated">
-ActivitySim 1.3.0b2.dev73+g50c05c50, documentation last updated Apr 25, 2024.<br/>
+ActivitySim 1.3.0b2.dev81+g28a0ad0f, documentation last updated Jul 09, 2024.<br/>
 </p></div>
       
         <div class="footer-item">
@@ -3511,7 +3541,7 @@ ActivitySim 1.3.0b2.dev73+g50c05c50, documentation last updated Apr 25, 2024.<br
       
         <div class="footer-item">
 <p class="theme-version">
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
 </p></div>
       
     </div>
