@@ -14,6 +14,8 @@ import numpy as np
 from activitysim.core import chunk, config, mem, tracing, workflow
 from activitysim.core.configuration import FileSystem, Settings
 
+from activitysim.abm.models.settings_checker import check_model_settings
+
 logger = logging.getLogger(__name__)
 
 
@@ -369,6 +371,10 @@ def run(args):
                     logger.info(f"NUMPY {cfg_key} {info_key}: {info[info_key]}")
 
     t0 = tracing.print_elapsed_time()
+
+    # TODO: Move this into the state.run function
+    logger.info("Checking Settings Files")
+    check_model_settings(state)
 
     try:
         if state.settings.multiprocess:
